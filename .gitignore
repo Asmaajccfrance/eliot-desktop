@@ -1,0 +1,49 @@
+# Dossiers recréables (ne pas les publier)
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info
+.pytest_cache/
+.uv-cache/
+
+# Archive locale du projet (copie, trop lourde pour GitHub)
+*.zip
+
+# Secrets et données personnelles
+.secrets/
+.env
+.env.*
+!.env.example
+config.yaml
+**/config.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+memory.json
+reminders.json
+budget.json
+notes/
+logs/
+*.log
+*.sqlite
+*.db
+google_credentials.json
+google_token.json*
+credentials*.json
+token.json
+tokens.json
+
+# Modèles d'IA et voix (souvent > 100 Mo, à retélécharger)
+voix/
+*.onnx
+*.onnx.json
+*.bin
+vosk-model*/
+
+# Raccourcis Windows locaux
+*.lnk
